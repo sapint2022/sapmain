@@ -1,0 +1,16 @@
+location = "west europe"
+rg_name = "sap"
+vnet_name = "sap-vnet"
+vnet_address_range = ["10.0.0.0/16"]
+subnet_name = "sap-vnet-subnet"
+subnet_address_range = ["10.0.0.0/16"]
+nic_name = "sap-nic"
+nic_ip_config_name = "internal"
+nic_ip_address_allocation = "Dynamic"
+vm_name = "sapvm1"
+vm_size = "Standard_F2"
+vm_admin_user = "sapadmin"
+vm_os_publisher = "Canonical"
+vm_os_offer = "UbuntuServer"
+vm_os_sku = "16.04-LTS"
+vm_os_version = "latest"
